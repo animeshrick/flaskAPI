@@ -1,0 +1,12 @@
+{
+    "name": "Subs API",
+    "version": 2,
+    "builds": [{
+        "src": "*py",
+         "use": "@now/python",
+      "config": { "maxLambdaSize": "10mb" }
+    }],
+    "routes": [
+        { "src": "(.*)", "dest": "app.py" }
+    ]
+}
