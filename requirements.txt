@@ -13,3 +13,5 @@ SQLAlchemy==1.2.14
 Werkzeug==0.14.1
 sqlalchemy
 Flask-SQLAlchemy==2.5.1
+flask-marshmallow
+marshmallow
